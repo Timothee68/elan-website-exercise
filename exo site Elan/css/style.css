@@ -1,0 +1,265 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Exo', sans-serif; 
+}
+
+@font-face {
+    font-family:'Exo', sans-serif ;
+    src: url('https://fonts.googleapis.com/css2?family=Exo:wght@200;300&display=swap');
+}  
+
+    body{
+    font-family: Georgia, 'Times New Roman', Times, serif;    
+    margin: 0;
+    background-color: rgb(128, 128, 128);
+}
+
+/*parti header*/
+
+header{
+    
+    background-color: rgb(255, 165, 0);
+    display: flex;
+    height: 125px;
+}
+
+.logo-elan{
+    width: 30%;
+    margin-left: 90px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white; 
+}
+
+.image_logo{
+    width: 70px;
+    height: 70px;
+}
+
+span{
+    margin-left: 20px;
+    font-size: 20px;
+    opacity: 80%;
+}
+
+.nav_bar{
+     display: flex;
+     justify-content: end;
+     align-items:center;
+    width: 100%;
+    margin-right: 150px;
+    }
+
+.nav_bar a{
+    margin: 10px 40px 0px 0px;
+    padding: 5px; 
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    opacity: 80%;
+    font-size: 25px;   
+}
+
+.nav_bar a:hover{
+    text-decoration:underline;
+    background-color: rgb(155, 104, 37)
+}
+
+.header_img{
+    background-image: url("img/strasbourg.jpg");
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    padding: 24vh 2em;
+    text-align: center;
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+}
+
+.header_img h1,p{
+    color: white;
+    margin: 10px;
+    width: 100%;
+
+}
+.header_img{
+    font-size: 30px;
+
+}
+.header_img p{
+    font-size: 50px;
+}
+
+/******************************************/
+
+                /*main*/
+
+        /* Nos foramtion*/
+
+.nos_formation{
+    margin: 50px 100px;    
+    background-color: white;
+    border: dashed  2px rgb(255, 165, 0);
+    height:300px;
+}
+
+.nos_formation h2{
+    font-weight:bold;
+    margin:30px 0px 30px 20px;
+}
+
+table{
+    text-align: center;
+    width:95%;
+    margin-left:2.5%;
+    border-collapse:collapse;
+}
+
+table tr td  {
+    font-weight:bold;
+    padding: 10px 10px;
+    border: solid black 1px;  
+}
+
+.name_table{
+    background-color: rgb(81, 81,81);
+    color: white;
+}
+
+ /*notre equipe*/
+
+.notre_equipe{
+    margin: 50px 100px;    
+    background-color: white;
+    border: dashed  2px rgb(255, 165, 0);
+}
+
+.notre_equipe h2{
+    font-weight:bold;
+    margin:30px 0px 30px 40px;
+}
+
+.conteneur{
+    display: flex;
+    flex-direction: row ;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:center;  
+ 
+}
+
+.conteneur2{
+    display: flex;
+    flex-direction: row ;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:center;   
+}
+
+figure{
+    position: relative;
+}
+
+.notre_equipe img{
+    border:solid 1px rgb(255, 165, 0);
+    
+}
+
+.notre_equipe figcaption{
+    bottom:6px ;
+    width: 182px;
+    position: absolute;
+    background-color: rgb(255, 165, 0);
+    color: white;
+    text-align: center;
+    opacity: 80%;
+}
+
+
+/*************************/
+/* partit nous contacter */
+
+.nous_contacter{
+    background-color: white;
+    border: dashed  2px rgb(255, 165, 0) ;
+    margin: 50px 100px ;
+}
+
+.nous_contacter h2{
+    font-weight:bold;
+    margin-left: 20px;
+}
+
+#nom{
+    width:95%;
+    margin-left:2.5%;
+    margin-bottom: 15px;
+    border: solid 1px rgb(255, 165, 0);
+    border-radius:5px 5px 5px 5px;
+    -webkit-border-radius:5px 5px 5px 5px;
+    -moz-border-radius:5px 5px 5px 5px;
+    -ms-border-radius:5px 5px 5px 5px;
+    -o-border-radius:5px 5px 5px 5px;
+}
+
+#objet{
+    width:95%;
+    margin-left:2.5%;
+    margin-bottom: 15px;
+    border: solid 1px rgb(255, 165, 0);
+    border-radius:5px 5px 5px 5px;
+    -webkit-border-radius:5px 5px 5px 5px;
+    -moz-border-radius:5px 5px 5px 5px;
+    -ms-border-radius:5px 5px 5px 5px;
+    -o-border-radius:5px 5px 5px 5px;
+}
+
+label{
+    margin-left:2.5%;
+}
+
+#message{
+    width:95%;
+    margin-left:2.5%;
+    margin-bottom: 15px;
+    border: solid 1px rgb(255, 165, 0);
+    border-radius:5px 5px 5px 5px;
+    -webkit-border-radius:5px 5px 5px 5px;
+    -moz-border-radius:5px 5px 5px 5px;
+    -ms-border-radius:5px 5px 5px 5px;
+    -o-border-radius:5px 5px 5px 5px;
+    
+}
+
+button{
+    width:95%;
+    margin-left:2.5%;
+    margin-bottom: 60px;
+    border: none;
+    background-color: rgb(255, 165, 0);
+    color: white;
+    height: 60px;
+    width:45%;
+    border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -ms-border-radius: 5px 5px 5px 5px;
+    -o-border-radius: 5px 5px 5px 5px;
+}
+
+/************************************/
+
+            /* partit footer */
+
+footer{
+    background-color: rgb(81, 81,81);
+    color: white;
+}
+
+footer p , address{
+    text-align: center;
+    margin-bottom: 0;
+}
+
+/***********************************/
